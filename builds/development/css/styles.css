@@ -9,6 +9,10 @@ html, body, .container-table {
     vertical-align: middle;
 }
 
+.img-circle {
+    border-radius: 50%;
+}
+
 .title_logo {
 	font-size: 200%;
 }
