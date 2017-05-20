@@ -9,10 +9,10 @@
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 
     <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
     <!-- Animate CSS -->
     <link rel="stylesheet" href="css/animate.css">
@@ -43,21 +43,16 @@
             <div class="text-center col-6 animated fadeIn">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-md-12">
-                            <div class="big_font">Please Log In</div>
-                        </div>
-                    </div>  
-                    <div class="row">
                         <div class="col-md-4">
-                            <img id="student_page" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
+                            <img id="student_icon" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
                             <div class="big_font">Student</div>
                         </div>
                         <div class="col-md-4">
-                            <img src="images/parent.svg" alt="Parent" style="width:228px;height:171px;">
+                            <img id="parent_icon" src="images/parent.svg" alt="Parent" style="width:228px;height:171px;">
                             <div class="big_font">Parent</div>
                         </div>
                         <div class="col-md-4">
-                            <img src="images/teacher.svg" alt="Teacher" style="width:228px;height:171px;">
+                            <img id="teacher_icon" src="images/teacher.svg" alt="Teacher" style="width:228px;height:171px;">
                             <div class="big_font">Teacher</div>
                         </div>
                     </div>                      
@@ -66,8 +61,33 @@
         </div>
     </div>
 
+
+    <!-- Parent Portal -->
+    <div id="parent_page" class="container-fluid container-table" style="display:none">
+        <div class="row vertical-center-row">
+            <div class="text-center col-6 animated fadeIn">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="big_font">Parent Portal</div>
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="parent_icon" src="images/parent.svg" alt="Parent" style="width:228px;height:171px;">
+                        </div>
+                    </div>  
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="back_icon" src="images/back-arrow.svg" alt="Back" style="width:114px;height:85px;">
+                        </div>
+                    </div>                      
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Studnet Portal -->
-    <div id="login_page" class="container-fluid container-table">
+    <div id="student_page" class="container-fluid container-table" style="display:none">
         <div class="row vertical-center-row">
             <div class="text-center col-6 animated fadeIn">
                 <div class="container-fluid">
@@ -78,7 +98,12 @@
                     </div>  
                     <div class="row">
                         <div class="col-md-12">
-                            <img id="student_page" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
+                            <img id="student_icon" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="back_icon2" src="images/back-arrow.svg" alt="Back" style="width:114px;height:85px;">
                         </div>
                     </div>                      
                 </div>
@@ -86,28 +111,10 @@
         </div>
     </div>
 
-    <!-- Family Portal -->
-    <div id="login_page" class="container-fluid container-table">
-        <div class="row vertical-center-row">
-            <div class="text-center col-6 animated fadeIn">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="big_font">Family Portal</div>
-                        </div>
-                    </div>  
-                    <div class="row">
-                        <div class="col-md-12">
-                            <img id="student_page" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
-                        </div>
-                    </div>                      
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Teacher Porta sl -->
-    <div id="login_page" class="container-fluid container-table">
+
+    <!-- Teacher Portal -->
+    <div id="teacher_page" class="container-fluid container-table" style="display:none">
         <div class="row vertical-center-row">
             <div class="text-center col-6 animated fadeIn">
                 <div class="container-fluid">
@@ -118,7 +125,12 @@
                     </div>  
                     <div class="row">
                         <div class="col-md-12">
-                            <img id="student_page" src="images/student.svg" alt="Student" style="width:228px;height:171px;">
+                            <img id="teacher_icon" src="images/teacher.svg" alt="Teacher" style="width:228px;height:171px;">
+                        </div>
+                    </div>   
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img id="back_icon3" src="images/back-arrow.svg" alt="Back" style="width:114px;height:85px;">
                         </div>
                     </div>                      
                 </div>
