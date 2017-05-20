@@ -7,6 +7,10 @@
     { 
       "student_name":"Student 2",
       "score":10
+    },
+    { 
+      "student_name":"Student 3",
+      "score":10
     }
   ]
 }
