@@ -51,4 +51,21 @@ $(document).ready(function() {
         console.log("back_icon");
  
     });    
+
+
+    console.log("Start of studentList");
+
+    // Generate Profile/Projects from an external source.
+    $.getJSON( "js/students.json", function( data ) {	
+
+        console.log("Inside json parsing");
+        $.each(data.Student, function(key, value) {
+            let appendText = `<h4>${value.student_name}</h4>\
+                              <strong>Score</strong> ${value.score}`;
+            console.log(appendText);
+            $('#studentList').append(appendText);
+
+        });
+    });
+    console.log("End of studentList");
 });

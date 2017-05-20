@@ -1,0 +1,13 @@
+{
+  "Student": [
+    { 
+      "student_name":"Student 1",
+      "score":0
+    },
+    { 
+      "student_name":"Student 2",
+      "score":10
+    }
+  ]
+}
+
