@@ -42,3 +42,47 @@ box-shadow:         0px 0px 30px 0px rgba(0, 255, 0, 0.67);
 box-shadow:         0px 0px 20px 0px rgba(0,204,255,1);
 }
 
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+}
+
+.background-img {
+    margin-top: -8em;
+    width: 40em;
+    height: 25em;
+}
+
+.landing-page-title {
+  position: absolute;
+  top: 3em;
+}
+
+.title {
+  font-size: 4em;
+  font-weight: bold;
+  color: blue;
+}
+
+.loading-sign {
+  position: absolute;
+  padding: 0 2em;
+  top: 20em;
+  border: 2px solid blue;
+  border-radius: 3em;
+  font-weight: bold;
+  color: white;
+}
+
+.landing-page-symbol {
+  position: absolute;
+  bottom: 0;
+}
+
+.symbol-image {
+  height: 15em;
+  width: 10em;
+}
